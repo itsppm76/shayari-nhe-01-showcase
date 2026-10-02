@@ -6,7 +6,7 @@
 
 <br/>
 
-<img src="assets/badges.svg" alt="build v134, live, entity NHE-01, full disclosure, 39/39 checks, source private"/>
+<strong>Current source: v135.2 · Documentation only · Source private</strong>
 
 <br/><br/>
 
@@ -52,14 +52,17 @@ flowchart LR
     P <--> D[(Encrypted store)]
 ```
 
-## Latest release: v134
+## Latest source update: v135.2
 
-A latency and security release.
+The current editor snapshot adds paid-tier model routing and budget pacing:
 
-- **Faster replies.** The model router was reworked. Under load, client-side latency had become the dominant cost, so the per-turn work was cut back: fewer repeated reads, requests batched in parallel, and tighter per-mode time budgets.
-- **New fallback path.** A gateway tier now sits at the end of the model router, so a turn can still be answered when direct providers are rate limited or down.
-- **Security fix.** A privileged decision that used to trust a flag sent by the browser is now made on the server only.
-- **Hardening.** Priority fixes from the investigation (P0 to P2) are in, with 39 of 39 automated checks passing in the developer report.
+- **Plan-aware routing.** Paid plans can use a separate model pool; the existing free path remains available.
+- **Budget pacing.** Model selection steps down as usage runs ahead of the monthly pace, rather than changing the conversation thread.
+- **Updated quotas.** Paid Lightning is 5 messages per 24 hours. Thinking and Intimate retain their plan-specific session limits. FREE Lightning remains 10 per 24 hours.
+- **Voice and images.** Their processing follows the plan's routing context.
+- **Checks expanded.** The source includes new offline routing and pacing checks. No new test pass count is claimed here.
+
+This describes the current source, not an independent verification of the deployed web-app version. Backend implementation, spending details, operator reports and user data remain private.
 
 Full notes: [docs/RELEASE_NOTES.md](docs/RELEASE_NOTES.md).
 
