@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="100%" role="img" aria-label="Eight stage message pipeline">
+<style>.b{fill:none;stroke:#808080;stroke-width:1.2}.n{font:600 11px ui-monospace,Menlo,monospace;fill:#808080}.l{font:600 13px 'Helvetica Neue',Arial,sans-serif;fill:#808080}
+.p{stroke-dasharray:4 6;animation:d 1.2s linear infinite}@keyframes d{to{stroke-dashoffset:-20}}
+.h{animation:h 8s infinite;fill:#808080;fill-opacity:0}@keyframes h{0%,100%{fill-opacity:0}6%,12%{fill-opacity:.35}18%{fill-opacity:0}}</style>
+<path class="b p" d="M10 125H969"/><g>
+<rect class="b" x="10" y="45" width="105" height="60" rx="3"/><rect class="h" x="10" y="45" width="105" height="60" rx="3" style="animation-delay:0s"/><text class="n" x="22" y="68">01</text><text class="l" x="22" y="90">Safety</text>
+<rect class="b" x="132" y="45" width="105" height="60" rx="3"/><rect class="h" x="132" y="45" width="105" height="60" rx="3" style="animation-delay:1s"/><text class="n" x="144" y="68">02</text><text class="l" x="144" y="90">Limits</text>
+<rect class="b" x="254" y="45" width="105" height="60" rx="3"/><rect class="h" x="254" y="45" width="105" height="60" rx="3" style="animation-delay:2s"/><text class="n" x="266" y="68">03</text><text class="l" x="266" y="90">Commands</text>
+<rect class="b" x="376" y="45" width="105" height="60" rx="3"/><rect class="h" x="376" y="45" width="105" height="60" rx="3" style="animation-delay:3s"/><text class="n" x="388" y="68">04</text><text class="l" x="388" y="90">Inputs</text>
+<rect class="b" x="498" y="45" width="105" height="60" rx="3"/><rect class="h" x="498" y="45" width="105" height="60" rx="3" style="animation-delay:4s"/><text class="n" x="510" y="68">05</text><text class="l" x="510" y="90">Context</text>
+<rect class="b" x="620" y="45" width="105" height="60" rx="3"/><rect class="h" x="620" y="45" width="105" height="60" rx="3" style="animation-delay:5s"/><text class="n" x="632" y="68">06</text><text class="l" x="632" y="90">Emotion</text>
+<rect class="b" x="742" y="45" width="105" height="60" rx="3"/><rect class="h" x="742" y="45" width="105" height="60" rx="3" style="animation-delay:6s"/><text class="n" x="754" y="68">07</text><text class="l" x="754" y="90">Generate</text>
+<rect class="b" x="864" y="45" width="105" height="60" rx="3"/><rect class="h" x="864" y="45" width="105" height="60" rx="3" style="animation-delay:7s"/><text class="n" x="876" y="68">08</text><text class="l" x="876" y="90">Persist</text>
+</g></svg>

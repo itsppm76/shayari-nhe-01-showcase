@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 40" width="100%" role="img" aria-label="Safety first. Memory you can inspect. Always disclosed.">
+<rect width="900" height="40" fill="none"/>
+<style>.t{font:16px ui-monospace,Menlo,Consolas,monospace;fill:#e8e8e8}.k{fill:#777}
+.l{opacity:0;animation:s 9s infinite}.l2{animation-delay:3s}.l3{animation-delay:6s}
+@keyframes s{0%{opacity:0}3%{opacity:1}30%{opacity:1}33%{opacity:0}100%{opacity:0}}
+@media(prefers-color-scheme:light){.t{fill:#111}.k{fill:#888}}</style>
+<g class="l"><text class="t" x="450" y="26" text-anchor="middle"><tspan class="k">&gt; </tspan>safety check runs first, every message</text></g>
+<g class="l l2"><text class="t" x="450" y="26" text-anchor="middle"><tspan class="k">&gt; </tspan>memory you can read, correct and delete</text></g>
+<g class="l l3"><text class="t" x="450" y="26" text-anchor="middle"><tspan class="k">&gt; </tspan>never pretends to be a person</text></g>
+</svg>
