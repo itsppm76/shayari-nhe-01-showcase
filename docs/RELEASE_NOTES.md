@@ -1,3 +1,17 @@
+# v135.2 source update
+
+The owner's current Shay NEXT editor snapshot was reviewed on 3 October 2026.
+
+- Paid-tier routing uses a separate model pool when configured.
+- Budget pacing changes the model level based on usage and how far through the month the user is.
+- Paid Lightning has 5 messages per 24 hours. Thinking and Intimate keep their plan-specific session limits. FREE Lightning stays at 10 per 24 hours.
+- Voice transcription and image analysis follow plan-aware routing.
+- Offline checks were expanded. No new test pass count or independent deployment verification is claimed.
+
+This public showcase contains documentation only. It excludes application source, prompts, service keys, user data, private spend figures and operator reports.
+
+## Previous release notes
+
 # Release notes
 
 ## v134 - 2 October 2026
